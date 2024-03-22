@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { SocialIcon } from 'react-social-icons'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
