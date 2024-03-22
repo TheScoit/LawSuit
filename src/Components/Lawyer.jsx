@@ -26,7 +26,7 @@ const Lawyer = () => {
           <LawyerCard
           src="https://static.vecteezy.com/system/resources/thumbnails/032/411/190/small/a-male-lawyer-stands-confidently-in-the-courtroom-a-portrait-capturing-his-professionalism-and-dedication-to-the-law-generative-ai-photo.jpg"
           name="Azaz Ahmed"
-          occupation="Family Lawyer"/>
+          occupation="Constitutional Lawyer"/>
           </div>
           <div className="lawyer__cardsdown">
           <LawyerCard
@@ -36,15 +36,15 @@ const Lawyer = () => {
           <LawyerCard
           src="https://www.huntonak.com/images/content/2/5/v2/25800/Levine-Michael.jpg"
           name="Rahul Chaturvedi"
-          occupation="Family Lawyer"/>
+          occupation="Corporate Lawyer"/>
           <LawyerCard
           src="https://media.istockphoto.com/id/514165852/photo/successful-man-portrait.jpg?s=612x612&w=0&k=20&c=P3qvqTEAFXZlD-Uw1fMflEZxThPRBqiP5ls6IP-AWHA="
           name="Samar Yadav"
-          occupation="Family Lawyer"/>
+          occupation="Employment Lawyer"/>
           <LawyerCard
           src="https://thelawyer.imgix.net/content/uploads/2020/12/15164744/Banning-Fred-scaled.jpg?auto=compress,format&q=60&w=652&h=434"
           name="Arbaz khan"
-          occupation="Family Lawyer"/>
+          occupation="Immigration lawyer"/>
           </div>
         </div>
       </div>

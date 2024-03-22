@@ -35,16 +35,7 @@
     text-align: start;
     color: lightgrey;
 }
-.icons{
-    padding: 3px;
-    position: relative;
-    top: 16vh;
-    height: 10vh;
-    /* background: red; */
-    display:flex;
-    align-items:center;
-    
-}
+
 
 .footer2 {
     position: relative;
@@ -193,6 +184,6 @@ h6{
     /* background: #000; */
     color: lightgray;
     font-size: 2vh;
-    right: 40vw;
+    right: 38vw;
     white-space: nowrap;
 }

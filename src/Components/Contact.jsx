@@ -18,7 +18,7 @@ const Contact = () => {
                 <input type="text" placeholder='Email' name='email' className='email'/>
                 <input type="text" placeholder='Contact' name='contact' className='contact'/>
                 <input type="text" placeholder='Message' name='message' className='message'/>
-                <Button className='button' variant='outlined'>Submit</Button>
+                <Button className='btn' variant='outlined'>Submit</Button>
             </form>
         </div>
       </div>

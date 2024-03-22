@@ -1,0 +1,45 @@
+.bussinesspage{
+    /* overflow: hidden; */
+    height: 140vh;
+    background-color: #f49200;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.bussinessimage img{  
+    width: 480px;
+    position: relative;
+    top: 14.4vh;
+    border-radius: 5px;
+    right: 2vw;
+}
+
+.bussinessinfo{
+    padding: 100px;
+    /* background-color: blue; */
+    width: 50vw;
+}
+
+.bussinessinfo p{
+    color: white;
+    font-size: 2.5vh;
+}
+.bussinessinfo p span{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.bussinesspage Button{
+    font-weight: 700;
+    position: relative;  
+    height: 5vh;
+    color: orange;
+    background-color: #343434;
+    top: 5vh;
+}
+.bussinesspage Button:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -2,7 +2,9 @@ import React from 'react'
 import './Service.css'
 import SmallCard from './SmallCard'
 import { Button } from '@mui/material'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 const Service = () => {
+  const history = useHistory()
 
   return (
     <div>
@@ -14,7 +16,7 @@ const Service = () => {
                 <h2>Why Select Us?</h2>
                 <p>Selecting us for your needs is a decision backed by expertise, reliability, and dedication.
                 Choose us because we prioritize expertise, reliability, and dedication, ensuring your rights are protected and respected at all times</p>
-                <Button >Free Consulation</Button>
+                <Button onClick={()=>history.push('/contact')}>Free Consulation</Button>
         </div>
         <div className="card__desgin">
         <SmallCard

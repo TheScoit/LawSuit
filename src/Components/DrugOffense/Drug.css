@@ -1,0 +1,45 @@
+.drugpage{
+    /* overflow: hidden; */
+    height: 140vh;
+    background-color: #f49200;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.drugimage img{  
+    width: 480px;
+    position: relative;
+    top: 14.4vh;
+    border-radius: 5px;
+    right: 2vw;
+}
+
+.druginfo{
+    padding: 100px;
+    /* background-color: blue; */
+    width: 50vw;
+}
+
+.druginfo p{
+    color: white;
+    font-size: 2.5vh;
+}
+.druginfo p span{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.drugpage Button{
+    font-weight: 700;
+    position: relative;  
+    height: 5vh;
+    color: orange;
+    background-color: #343434;
+    top: 5vh;
+}
+.drugpage Button:hover{
+    background-color: #fff;
+    color: black;
+}

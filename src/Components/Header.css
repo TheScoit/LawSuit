@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
+    
 }
 .header__left{
     width: 40%;
@@ -17,7 +18,7 @@
     align-items: center;
     gap: 10px;
     position: relative;
-    left: 1.3vw;
+    left: 1vw;
 }
 
 .header__right{
@@ -25,8 +26,8 @@
     height: 12vh;
     display:flex;
     align-items:center;
-    position: relative;
-    left: 12vw;
+    position: relative; 
+    left: 20vw;
     gap: 14px;
     padding: 0 19vh; 
 }
@@ -52,6 +53,7 @@
     font-family: 'Poppins';
     font-weight: 400;
     color: white;
+    cursor: pointer;
 }
 
 .account{
@@ -66,7 +68,4 @@
     cursor: pointer;
 }
 
-/* @media only screen  and(max-width:320px){
-    
-} */
 
