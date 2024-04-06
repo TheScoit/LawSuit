@@ -10,8 +10,8 @@ const Property = () => {
     <div className='propertypage'>
     <div className="propertyinfo">
         <p><span> Property law</span> is a branch of civil law that governs the ownership, use, transfer, and protection of real and personal property. It encompasses a wide range of legal principles and rules that define the rights and responsibilities of individuals, businesses, and other entities in relation to property. Property law covers both tangible assets (such as land, buildings, and vehicles) and intangible assets (such as intellectual property rights and contractual rights).</p>
-        <p><span> Types of Property:</span> <span> Real Property:</span> Also known as real estate, it refers to land and anything permanently attached to it, such as buildings, houses, trees, minerals, and water rights.
-        <span>Personal Property:</span> This includes movable assets that are not classified as real property, such as vehicles, furniture, electronics, clothing, and intellectual property rights (patents, copyrights, trademarks).</p>
+        <p><span> Types of Property: </span> <span> <br /> Real Property:</span> Also known as real estate, it refers to land and anything permanently attached to it, such as buildings, houses, trees, minerals, and water rights.
+        <span> <br />Personal Property:</span> This includes movable assets that are not classified as real property, such as vehicles, furniture, electronics, clothing, and intellectual property rights (patents, copyrights, trademarks).</p>
         <p><span>Ownership Rights:</span> Fee Simple Absolute: The highest form of ownership, granting the owner full and unrestricted rights to use, sell, lease, or transfer the property indefinitely.
         Leasehold: The right to possess and use a property for a specific period under a lease agreement, without owning the property outright.
          Easements: Legal rights that allow a person or entity to use another person's land for a specific purpose, such as access to a road or utility lines.</p>

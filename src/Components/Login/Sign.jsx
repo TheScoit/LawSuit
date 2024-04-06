@@ -26,7 +26,7 @@ function SignIn() {
       </div>
       
       <footer>
-        <p>©2024 KnowYourRight, Inc. All Rights Reserved.</p>
+        <p>©2024 LegalSathi, Inc. All Rights Reserved.</p>
       </footer>
     </div>
     </div>

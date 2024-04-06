@@ -1,0 +1,72 @@
+.contactlink{
+    height: 84vh;
+    position: relative;
+    top: 8vh;
+    background-color: #f49200;
+    display: flex;
+}
+
+.contactimage img{
+    width: 1023px;
+}
+
+.contactinfo{
+    padding-top: 10vh;
+    padding-left: 2vw ;
+}
+
+.contactinfo h3{
+    font-weight: 400;
+}
+
+.contactinfo h2{
+    padding-right: 8vw;
+    word-spacing: 1px;
+    font-weight: 200;
+}
+
+form.form{
+    display: flex;
+    flex-direction:column;
+    gap: 2vh;
+}
+
+input.__name{
+    padding: 10px 20px;
+
+}
+
+input.__email{
+    padding: 10px 20px;
+}
+
+input.__message{
+    
+    padding: 60px 20px;
+}
+
+input.__message::placeholder{
+    position: absolute;
+    top: 1vh;
+}
+
+input.__contact{
+    padding: 10px 20px;
+}
+
+.button2{
+    display: flex;
+    gap: 1.5vh;
+}
+
+.button2 Button{
+    width: 11vw;
+    color: #f49200;
+    background-color: black;
+}
+
+.button2 Button:hover{
+    width: 11vw;
+    color: black;
+    background-color: white;
+}

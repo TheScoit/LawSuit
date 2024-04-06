@@ -22,7 +22,7 @@ const Footer = () => {
             <h4 onClick={()=>history.push('/insurance')}>Insurance Law</h4>
             <h4 onClick={()=>history.push('/family')}>Family Law</h4>
             <h4 onClick={()=>history.push('/drug')}>Drug Offense</h4>
-            <h4>Fire Accident</h4>
+            <h4 onClick={()=>history.push('/fire')}>Fire Accident</h4>
             <h4 onClick={()=>history.push('/Employment')}>Employment Law</h4>
             <h4 onClick={()=>history.push('/property')}>Property Law</h4>
         </div>

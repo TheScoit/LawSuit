@@ -17,7 +17,8 @@ import Family from './Family/Family'
 import Drug from './DrugOffense/Drug'
 import Employment from './Employment/Employment'
 import Property from './Property/Property'
-
+import Contactlink from './Contact/Contactlink'
+import Fire from './FireAccident/Fire'
 
 
 function App() {
@@ -31,7 +32,6 @@ function App() {
 
       <Route path='/' exact>
             <Header />
-
             <Content />
             <Service />
             <Lawyer />
@@ -78,7 +78,13 @@ function App() {
             <Property/>
           </Route>
 
+          <Route path='/contact'>
+            <Contactlink/>
+          </Route>
           
+          <Route path='/fire'>
+            <Fire/>
+          </Route>
       </Router>
    
 

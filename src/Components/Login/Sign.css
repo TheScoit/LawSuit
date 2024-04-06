@@ -63,13 +63,13 @@ Button.btn1{
     top: 5vh;
     width: 21.1vw;
     color: white;
-    background-color: #f49200;
+    background-color: #343433;
     height: 5vh;
     /* background-color: red; */
 }
 Button.btn1:hover{
-    color: #f49200;
-    background-color: white;
+    color: #343434;
+    background-color: orange;
 }
 footer{
     position: relative;

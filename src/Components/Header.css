@@ -27,7 +27,7 @@
     display:flex;
     align-items:center;
     position: relative; 
-    left: 20vw;
+    left: 19.5vw;
     gap: 14px;
     padding: 0 19vh; 
 }
@@ -51,7 +51,7 @@
 
 .header__left h1{
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     cursor: pointer;
 }
@@ -69,3 +69,41 @@
 }
 
 
+@media  only screen and (max-width:320px) {
+    .header{
+        height: 15vh;
+        width: 100%;
+        background-color: #f49200;
+        z-index: 999;
+        position: fixed;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        
+    }
+
+    .header__left{
+        height: 15vh;
+        position: relative;
+        left: 36vw;
+        gap: 10px;
+    }
+    .header__left img{
+        height: 4.2vh;
+        border-radius: 90%;
+    }
+
+    .header__left h1{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 3vh;
+        white-space: nowrap;
+        color: white;
+        cursor: pointer;
+    }
+
+    .header__right{
+        width: 70%;
+        /* background-color: red; */
+    }
+}

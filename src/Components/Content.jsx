@@ -3,7 +3,7 @@ import './Content.css'
 import LawyerCareerVideo from '../assets/Lawyer Career Video.mp4'
 import { Button } from '@mui/material'
 import { SiChatbot } from "react-icons/si";
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { useHistory } from 'react-router-dom';
 
 function Content() {
   const history = useHistory();
